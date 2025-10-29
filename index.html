@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ইমেজ টু ভিডিও কনভার্টার</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 ইমেজ টু ভিডিও কনভার্টার</h1>
+        <div class="upload-box">
+            <input type="file" id="imageUpload" accept="image/*" hidden>
+            <label for="imageUpload" class="upload-btn">ইমেজ সিলেক্ট করুন</label>
+        </div>
+        <button id="convertBtn" onclick="convertToVideo()">ভিডিও বানান</button>
+        <div id="result" class="result-box"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
